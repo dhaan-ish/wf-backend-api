@@ -102,7 +102,239 @@ recipes = [
     {"id": 2, "title": "Banana Bread", "ingredients": ["banana", "flour", "sugar", "eggs"]},
     {"id": 3, "title": "Apple Pie", "ingredients": ["apple", "flour", "sugar", "butter"]},
     {"id": 4, "title": "Wheat Pancakes", "ingredients": ["wheat flour", "milk", "eggs", "butter"]},
+    {
+      "id": 5,
+      "title": "Creamy Tomato Pasta",
+      "ingredients": ["pasta", "tomatoes", "garlic", "olive oil", "heavy cream", "parmesan cheese"]
+  },
+  {
+      "id": 6,
+      "title": "Cheesy Chicken Enchiladas",
+      "ingredients": ["chicken breast", "tortillas", "cheese", "enchilada sauce", "onion", "cumin", "chili powder"]
+  },
+  {
+      "id": 7,
+      "title": "Stir-Fried Vegetables with Tofu",
+      "ingredients": ["tofu", "broccoli", "red bell pepper", "soy sauce", "sesame oil", "ginger", "rice"]
+  },
+  {
+      "id": 8,
+      "title": "Black Bean Burgers",
+      "ingredients": ["black beans", "brown rice", "corn", "breadcrumbs", "onion", "cumin", "paprika"]
+  },
+  {
+      "id": 9,
+      "title": "Lentil Soup",
+      "ingredients": ["lentils", "carrots", "celery", "onion", "chicken broth", "cumin", "turmeric"]
+  },
+  {
+      "id": 10,
+      "title": "Chocolate Chip Cookies",
+      "ingredients": ["butter", "sugar", "eggs", "flour", "chocolate chips", "vanilla extract"]
+  },
+  {
+      "id": 11,
+      "title": "Salmon with Roasted Vegetables",
+      "ingredients": ["salmon fillet", "broccoli", "asparagus", "olive oil", "lemon juice", "salt", "pepper"]
+  },
+  {
+      "id": 12,
+      "title": "Chicken Caesar Salad",
+      "ingredients": ["romaine lettuce", "grilled chicken", "parmesan cheese", "croutons", "Caesar dressing"]
+  },
+  {
+      "id": 13,
+      "title": "Beef Tacos",
+      "ingredients": ["ground beef", "taco shells", "shredded cheese", "lettuce", "tomato", "onion", "taco seasoning"]
+  },
+  {
+      "id": 14,
+      "title": "Cream of Broccoli Soup",
+      "ingredients": ["broccoli florets", "chicken broth", "onion", "garlic", "heavy cream", "milk", "cheese"]
+  },
+  {
+      "id": 15,
+      "title": "Thai Curry with Vegetables",
+      "ingredients": ["coconut milk", "curry paste", "red bell pepper", "zucchini", "snow peas", "basil leaves", "rice"]
+  },
+  {
+      "id": 16,
+      "title": "Quinoa Salad with Berries",
+      "ingredients": ["quinoa", "mixed berries", "spinach", "feta cheese", "almonds", "honey balsamic dressing"]
+  },
+  {
+      "id": 17,
+      "title": "Tuna Noodle Casserole",
+      "ingredients": ["canned tuna", "egg noodles", "cream of mushroom soup", "peas", "bread crumbs", "milk"]
+  },
+  {
+      "id": 18,
+      "title": "Vegetable Spring Rolls",
+      "ingredients": ["spring roll wrappers", "shredded cabbage", "carrots", "green onions", "tofu (optional)", "soy sauce", "rice vinegar", "sesame oil"]
+  },
+  {
+      "id": 19,
+      "title": "Chicken Pot Pie",
+      "ingredients": ["pie crust dough", "chicken breast", "carrots", "celery", "peas", "chicken broth", "heavy cream", "mixed herbs"]
+  },
+  {
+      "id": 20,
+      "title": "Pumpkin Muffins",
+      "ingredients": ["pumpkin puree", "eggs", "sugar", "flour", "baking powder", "cinnamon", "nutmeg", "pumpkin seeds (optional)"]
+  },
+   {
+      "id": 21,
+      "title": "French Toast",
+      "ingredients": ["bread slices", "eggs", "milk", "cinnamon", "vanilla extract", "butter", "maple syrup (optional)"]
+  },
+  {
+      "id": 22,
+      "title": "Scrambled Eggs with Smoked Salmon",
+      "ingredients": ["eggs", "smoked salmon", "butter", "chives", "salt", "pepper"]
+  },
+  {
+      "id": 23,
+      "title": "Chicken Stir-Fry with Noodles",
+      "ingredients": ["chicken breast", "rice noodles", "broccoli", "carrots", "soy sauce", "rice vinegar", "sesame oil", "ginger"]
+  },
+  {
+      "id": 24,
+      "title": "Lentil Shepherd's Pie",
+      "ingredients": ["lentils", "brown lentils", "vegetables (corn, peas, carrots)", "mashed potatoes", "onion", "garlic", "thyme", "vegetable broth"]
+  },
+  {
+      "id": 25,
+      "title": "Black Bean Soup with Avocado Crema",
+      "ingredients": ["black beans", "chicken broth", "corn", "tomatoes", "onion", "cumin", "chili powder", "avocado", "lime juice", "cilantro"]
+  },
+  {
+      "id": 26,
+      "title": "Baked Salmon with Lemon Herb Butter",
+      "ingredients": ["salmon fillet", "lemon", "butter", "fresh herbs (parsley, dill)", "garlic", "salt", "pepper"]
+  },
+  {
+      "id": 27,
+      "title": "Chicken Fajitas",
+      "ingredients": ["chicken breast strips", "bell peppers (various colors)", "onion", "fajita seasoning", "tortillas", "shredded cheese", "guacamole (optional)", "salsa (optional)"]
+  },
+  {
+      "id": 28,
+      "title": "One-Pot Pasta Primavera",
+      "ingredients": ["pasta (penne, farfalle)", "cherry tomatoes", "zucchini", "peas", "garlic", "olive oil", "parmesan cheese", "fresh basil"]
+  },
+  {
+      "id": 29,
+      "title": "Creamy Tomato Bisque",
+      "ingredients": ["tomatoes", "onion", "garlic", "heavy cream", "chicken broth", "thyme", "bay leaf", "salt", "pepper"]
+  },
+  {
+      "id": 30,
+      "title": "Chocolate Mug Cake",
+      "ingredients": ["flour", "cocoa powder", "sugar", "baking powder", "milk", "oil", "chocolate chips (optional)"]
+  },
+   {
+      "id": 31,
+      "title": "Beef and Broccoli",
+      "ingredients": ["flank steak", "broccoli florets", "soy sauce", "brown sugar", "rice vinegar", "cornstarch", "water", "ginger", "garlic", "rice"]
+  },
+  {
+      "id": 32,
+      "title": "Chicken and Vegetable Stir-Fry with Cashew Nuts",
+      "ingredients": ["chicken breast", "assorted vegetables (broccoli, carrots, snap peas)", "cashew nuts", "soy sauce", "honey", "rice vinegar", "sesame oil", "ginger", "garlic", "rice"]
+  },
+  {
+      "id": 33,
+      "title": "Spiced Chickpea Curry",
+      "ingredients": ["chickpeas", "coconut milk", "curry powder", "tomatoes", "onion", "garam masala", "ginger", "cilantro", "rice"]
+  },
+  {
+      "id": 34,
+      "title": "Caprese Salad",
+      "ingredients": ["fresh mozzarella cheese", "tomatoes", "fresh basil leaves", "olive oil", "balsamic vinegar", "salt", "pepper"]
+  },
+  {
+      "id": 35,
+      "title": "Chicken Caesar Wraps",
+      "ingredients": ["romaine lettuce leaves", "grilled chicken breast slices", "Caesar dressing", "parmesan cheese", "croutons (optional)"]
+  },
+  {
+      "id": 36,
+      "title": "Beef Stroganoff",
+      "ingredients": ["beef sirloin", "mushrooms", "onion", "beef broth", "sour cream", "Dijon mustard", "egg noodles"]
+  },
+  {
+      "id": 37,
+      "title": "Chicken Noodle Soup",
+      "ingredients": ["chicken breast", "egg noodles", "carrots", "celery", "onion", "chicken broth", "parsley"]
+  },
+  {
+      "id": 38,
+      "title": "Tuna Salad Sandwiches",
+      "ingredients": ["canned tuna", "mayonnaise", "celery", "red onion", "dill", "bread slices"]
+  },
+  {
+      "id": 39,
+      "title": "Cheesy Potato Soup",
+      "ingredients": ["potatoes", "chicken broth", "onion", "garlic", "heavy cream", "milk", "cheddar cheese", "paprika"]
+  },
+  {
+      "id": 40,
+      "title": "Greek Yogurt Parfait with Berries and Granola",
+      "ingredients": ["greek yogurt", "mixed berries", "granola", "honey (optional)"]
+  },
+  {
+      "id": 41,
+      "title": "Chicken Enchiladas with Green Chile Sauce",
+      "ingredients": ["chicken breast", "tortillas", "green chile sauce", "cheese", "onion", "cumin", "chili powder"]
+  },
+  {
+      "id": 42,
+      "title": "Shrimp Scampi",
+      "ingredients": ["shrimp", "butter", "garlic", "white wine", "lemon juice", "parsley", "pasta"]
+  },
+  {
+      "id": 43,
+      "title": "Turkey Chili",
+      "ingredients": ["ground turkey", "kidney beans", "black beans", "corn", "diced tomatoes", "chili powder", "cumin", "onion", "chicken broth"]
+  },
+  {
+      "id": 44,
+      "title": "Chicken Pot Pie with Puff Pastry Crust",
+      "ingredients": ["chicken breast", "carrots", "celery", "peas", "chicken broth", "heavy cream", "mixed herbs", "puff pastry dough"]
+  },
+  {
+      "id": 45,
+      "title": "Beef Tacos with Guacamole",
+      "ingredients": ["ground beef", "taco shells", "shredded cheese", "lettuce", "tomato", "onion", "taco seasoning", "avocados", "lime juice", "cilantro (for guacamole)"]
+  },
+  {
+      "id": 46,
+      "title": "Chicken Fajita Quesadillas",
+      "ingredients": ["chicken breast strips", "bell peppers (various colors)", "onion", "fajita seasoning", "tortillas", "shredded cheese"]
+  },
+  {
+        "id": 47,
+        "title": "Lemon Ricotta Pancakes",
+        "ingredients": ["flour", "sugar", "baking powder", "salt", "eggs", "milk", "ricotta cheese", "lemon zest", "butter", "maple syrup (optional)"]
+    },
+    {
+        "id": 48,
+        "title": "Black Bean Burgers with Sweet Potato Fries",
+        "ingredients": ["black beans", "brown rice", "corn", "breadcrumbs", "onion", "cumin", "paprika", "sweet potatoes", "olive oil", "salt", "pepper"]
+    },
+    {
+        "id": 49,
+        "title": "Creamy Tomato Tortilla Soup",
+        "ingredients": ["tomatoes", "chicken broth", "onion", "garlic", "cumin", "chili powder", "canned corn (optional)", "cream cheese", "tortilla strips", "avocado (optional)", "cilantro (optional)"]
+    },
+    {
+        "id": 50,
+        "title": "Stir-Fried Tofu with Vegetables and Peanut Sauce",
+        "ingredients": ["tofu", "broccoli florets", "red bell pepper", "snow peas", "soy sauce", "rice vinegar", "sesame oil", "ginger", "peanut butter", "rice"]
+    }
 ]
+
+print(recipes)
 
 @app.route('/exchange-rates')
 def get_exchange_rate():
@@ -129,7 +361,7 @@ def search_recipes():
     if not ingredient:
         return jsonify({'error': 'No ingredient provided'}), 400
     
-    matching_recipes = [recipe for recipe in recipes if ingredient.lower() in [ing.lower() for ing in recipe['ingredients']]]
+    matching_recipes = [recipe for recipe in recipes if ingredient.lower() in [ing.lower().split() for ing in recipe['ingredients']]]
     if not matching_recipes:
         return jsonify({'error': 'No recipes found for the provided ingredient'}), 404
     
