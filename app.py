@@ -334,7 +334,7 @@ recipes = [
     }
 ]
 
-print(recipes)
+
 
 @app.route('/exchange-rates')
 def get_exchange_rate():
@@ -361,7 +361,7 @@ def search_recipes():
     if not ingredient:
         return jsonify({'error': 'No ingredient provided'}), 400
     
-    matching_recipes = [recipe for recipe in recipes if ingredient.lower() in [ing.lower().split() for ing in recipe['ingredients']]]
+    matching_recipes = [recipe for recipe in recipes if any(ingredient.lower() in ing.lower().split() for ing in recipe['ingredients'])]
     if not matching_recipes:
         return jsonify({'error': 'No recipes found for the provided ingredient'}), 404
     
@@ -384,5 +384,4 @@ def get_random_weather():
         'humidity': humidity,
         'condition': condition
     })
-
 
