@@ -373,7 +373,7 @@ def get_random_weather():
     if not city:
         return jsonify({'error': 'No city provided'}), 400
     
-    temperature = round(random.uniform(-20, 40), 1) 
+    temperature = round(random.uniform(30, 40), 1) 
     humidity = random.randint(0, 100) 
     conditions = ['Sunny', 'Cloudy', 'Rainy', 'Snowy']
     condition = random.choice(conditions)  
